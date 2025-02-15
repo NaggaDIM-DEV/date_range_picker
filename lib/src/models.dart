@@ -14,7 +14,7 @@ class DateRange {
 
   @override
   String toString() {
-    return "${DateFormat('dd/MM/yyyy').format(start)} - ${DateFormat('dd/MM/yyyy').format(end)}";
+    return "${DateFormat('dd.MM.yyyy', 'ru_RU').format(start)} - ${DateFormat('dd.MM.yyyy', 'ru_RU').format(end)}";
   }
 
   /// Returns the duration of the date range in days.
@@ -83,7 +83,7 @@ class DayModel {
 
   @override
   String toString() {
-    return 'DayModel{date: ${DateFormat.yMd().format(date)}';
+    return 'DayModel{date: ${DateFormat.yMd('ru_RU').format(date)}';
   }
 }
 
