@@ -149,8 +149,8 @@ class DateRangePickerDialogFooter extends StatelessWidget {
   const DateRangePickerDialogFooter({
     super.key,
     this.selectedDateRange,
-    this.cancelText = "Cancel",
-    this.confirmText = "Confirm",
+    this.cancelText = "Отмена",
+    this.confirmText = "Подтвердить",
   });
 
   final String cancelText;
